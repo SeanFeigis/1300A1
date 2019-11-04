@@ -9,4 +9,8 @@ daysCalculatorE: daysCalculatorE.c
 	gcc -ansi daysCalculatorE.c -o daysCalculatorE
 daysCalculatorD: daysCalculatorD.c
 	gcc -ansi daysCalculatorD.c -o daysCalculatorD
+clean:
+	rm daysCalculatorA daysCalculatorB daysCalculatorC daysCalculatorD daysCalculatorE
+
+	
 
